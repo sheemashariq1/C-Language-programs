@@ -1,14 +1,13 @@
-//PROGRAM  TO SUM ALL THE NUMBERS UPTO A GIVEN NUMBER
-//#include<stdio.h>
+//program to print the table of a number
+#include<stdio.h>
 void main()
 {
-int n,i,j,sum=0;
-printf("Enter a number");
-scanf("%d",&n);
-for(i=1,j=n;i<=n&&j>=1;i++,j--)
+  int n,i;
+  printf("Enter a number");
+  scanf("%d",&n);
+  for(i=1;i<=10;i++)
 {
-    sum=sum+i;
-    printf("%d\n",j);
+printf("%d X %d = %d\n",n,i,n*i);
 }
-printf("Sum is %d",sum);
 }
+
